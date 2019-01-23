@@ -666,3 +666,6 @@ span.grayed {
   margin: 0 auto;
   display: block;
 }
+.procedure-pic-caption {
+  text-align: center;
+}
