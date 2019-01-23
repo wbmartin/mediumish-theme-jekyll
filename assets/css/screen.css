@@ -652,3 +652,8 @@ License: https://www.wowthemes.net/freebies-license/
  .card .img-fluid {
     width:100%;
 }
+
+.procedure-pic {
+  margin: 0 auto;
+  display: block;
+}
