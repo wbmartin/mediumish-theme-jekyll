@@ -223,6 +223,15 @@ License: https://www.wowthemes.net/freebies-license/
  .mainheading h1.sitetitle {
      font-family:Righteous;
 }
+span.sitetitle{
+   font-family:Righteous;
+   font-size: 2.5rem;
+}
+
+span.grayed {
+  color:#AAAAAA;
+}
+
  .mainheading h1.posttitle {
      font-weight:700;
      margin-bottom:1rem;

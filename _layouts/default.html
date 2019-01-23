@@ -44,9 +44,9 @@
     <div class="container pr-0">
 
     <!-- Begin Logo -->
-    <a class="navbar-brand" href="{{ site.baseurl }}/">
-    <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
-    </a>
+    <span class="sitetitle"><a href="/" style="color:black">{{ site.name }}</a></span>
+    <span class="sitetitle grayed" >&nbsp; | &nbsp;</span>
+    <span class="lead">{{ site.description }}</span>
     <!-- End Logo -->
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,7 +73,7 @@
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+                <a class="nav-link" href="{{ site.baseurl }}/about-me">About</a>
                 </li>
 
 
@@ -93,7 +93,7 @@
 <div class="container">
 
 <!-- Site Title
-================================================== -->
+==================================================
 <div class="mainheading">
     <h1 class="sitetitle">{{ site.name }}</h1>
     <p class="lead">
@@ -101,7 +101,7 @@
     </p>
 </div>
 
-
+-->
 
 <!-- Content
 ================================================== -->
