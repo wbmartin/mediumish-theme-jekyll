@@ -35,11 +35,14 @@
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body class="{{ layout }}">
+  <div class="site-content">
+    <div class="container">
 
+      <div class="main-content">
+          {{ content }}
+      </div>
 
-  <div class="main-content">
-      {{ content }}
-  </div>
+    </div><!-- /.container>
 
 
   <!-- Begin Footer
@@ -58,6 +61,6 @@
   </footer>
   <!-- End Footer
   ================================================== -->
-
+</div> <!-- /.site-content>
 </body>
 </html>
